@@ -1,0 +1,58 @@
+
+.grid-container {
+    display: grid;
+    grid-column-gap: 0px;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    padding: 0;
+  }
+
+  body{
+    background: url("https://i.imgur.com/Ql2XpGS.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .selected-characters{
+      text-align: center;
+    position: center;
+    top: 50%;
+    left: 50%;
+  }
+  .card {
+    text-align: center;
+    border: #ff2400 solid 15px;
+    border-radius: 5%;
+    padding: 1rem;
+    width: 25rem;
+    height: 35rem;
+    display: inline-grid;
+    margin: 1rem 2rem;
+    position: center;
+    box-shadow: 3px 4px #e04b52;
+    overflow: scroll;
+  }
+
+.card li img{
+  min-width: 100%;
+    width: 100%;
+    position: center;
+    
+}
+.card img{
+            width: 50%;
+
+            
+}
+
+h1{
+    color: white;
+    font-weight: 1000;
+    padding: 50px;
+
+    font-size: 500%;
+}
+
+
