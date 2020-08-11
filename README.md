@@ -58,7 +58,7 @@ Pleaase look inside the `Hard`.html to see more in detail, but inside `Hard`, yo
  ![hard result](/results/mvc2-hard-result.gif)
  
  
- ##Stretch Goal
+ ## Stretch Goal
  For `Hard`, try to add a delete button to each card. When this button is clicked, it removes the card from the "selected-characters" container and allows the user to select another character.
  
 For an **SUPER-COMBO FINISH** tough goal, make it so when the user selects 3 characters, the page auto-generates another selected character `<div>` with the class name "CPU-characters" and have it auto populate with 3 random characters for the CPU.
