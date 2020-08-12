@@ -1,5 +1,5 @@
 # MvC2_Dom_Practice
-We're loading up the game and it's now time to choose a difficulty. Pick your difty [Easy.html, Medium.html, Hard.html], and complete the tasks written within.
+We're loading up the game and it's now time to choose a difficulty. Pick your difficulty [Easy.html, Medium.html, Hard.html], and complete the tasks written within.
 
 # APIs & Creating Your Server
 For `Easy` and `Medium` I have attached a db.json in the root file. You can access this data using a JSON server. To do so, run the following commands
@@ -43,7 +43,7 @@ For this challenge, you **MUST** use the original api link
 `https://secure-hamlet-19722.herokuapp.com/api/v1/characters
 https://secure-hamlet-19722.herokuapp.com/api/v1/characters/{:name}/moves`
 
-Pleaase look inside the `Hard`.html to see more in detail, but inside `Hard`, you will find a `<div> with the class "grid-container". Inside that `<div>` container, you will find 2 `<div> containers. One named **"grid-item Capcom"** and another named **"grid-item Marvel** . Your mission is as follows
+Pleaase look inside the `Hard`.html to see more in detail, but inside `Hard`, you will find a `<div>` with the class "grid-container". Inside that `<div>` container, you will find 2 `<div>` containers. One named **"grid-item Capcom"** and another named **"grid-item Marvel** . Your mission is as follows
  
  * you need to fetch all characters from the api and load up the characters avatars. 
  * The characters need to be separated by their "universe" and placed in their appropriate `<div>` container. (ie. Magneto needs to be in the marvel container with his fellow mutants, while Ryu needs to be in the capcom container with his fellow street fighters)
